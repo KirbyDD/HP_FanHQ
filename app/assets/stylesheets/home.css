@@ -1,0 +1,27 @@
+.homepage {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.homepage-sec {
+  color: white;
+  background-color: black;
+  border: solid 4px white;
+  height: 90%;
+  width: 90%;
+}
+
+.btn-style-1 {
+  border: solid 2px #D28E2B;
+  color: gold;
+  background-color: #822025;
+  padding: 25px;
+}
+
+.homepage-btns {
+  display: flex;
+  justify-content: space-around;
+}
