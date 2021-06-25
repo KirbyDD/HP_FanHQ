@@ -1,27 +1,44 @@
 .homepage {
   align-items: center;
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100%;
   justify-content: center;
 }
 
 .homepage-sec {
-  color: white;
-  background-color: black;
-  border: solid 4px white;
+  display: flex;
+  justify-content: center;
   height: 90%;
-  width: 90%;
+  width: 100%;
 }
 
 .btn-style-1 {
   border: solid 2px #D28E2B;
   color: gold;
   background-color: #822025;
-  padding: 25px;
+  padding: 15px;
+}
+
+.btn-style-2 {
+  border: solid 2px #0B9603;
+  color: #0B9603;
+  padding: 15px;
 }
 
 .homepage-btns {
+  background-color: black;
+  border: solid 3px white;
+  border-radius: 15px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  margin-top: 18%;
+  height: 250px;
+  width: 75%;
+}
+
+.homepage-text {
+  font-size: 1.5rem;
 }
